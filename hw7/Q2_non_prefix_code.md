@@ -46,4 +46,4 @@ The recurrent relation is valid because any interpretable and non-ambiguous subs
 O(nkl), n and k for the double loop and l for the inner loop that checks whether the substr violates the prefix property.
 
 ### Space
-`nl` for the 2-dimensional dp table.
+`O(nl)` for the 2-dimensional dp table.
